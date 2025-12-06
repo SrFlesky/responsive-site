@@ -2,6 +2,18 @@
     font-size: 16px;
 }
 
+/* Header */
+header {
+    background-color: rgb(194, 213, 228);
+    margin-top: 10px;
+}
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(194, 213, 228);
+}
+
 /* Body */
 body {
     background-color: rgb(249, 254, 255);
@@ -12,19 +24,46 @@ body {
 .titulos {
     text-align: center;
     margin: 0 auto;
-    background-color: aliceblue;
-    border: 3px solid rgb(194, 213, 228);
-    border-radius: 25px;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
-.title {
+.titulos h2 {
     color:rgb(56, 66, 73);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
 }
 
-.by-title {
+.titulos p {
     color:rgb(56,66,73);
     font-style: italic;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+/* Menu bar */
+.menu-bar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+}
+
+.menu-bar ul {
+    margin: 0;
+}
+
+.menu-bar li {
+    float: left;   
+    list-style-type: none; 
+    font-size: 1.4rem;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    font-size: 1.4rem;
 }
 
 /* Galeria de imágenes */
@@ -48,7 +87,35 @@ body {
 .images-container img:hover {
     animation:  pulse-10 1.2s;
 }
+/* Servicios */
 
+.servicios-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;    
+}
+
+.box {
+    background-color: aliceblue;
+    padding: 2rem;
+    border: 2px solid rgb(194, 213, 228); 
+    text-align: center;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.box h3 {
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(96, 126, 149)
+}
+
+.box p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color:black;
+}
 /* Separator */
 
 .separator-bottom {
